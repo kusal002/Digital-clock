@@ -3,26 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital Clock</title>
+    <title>Timestamp</title>
     <link rel="stylesheet" href="style.css">
 <body>
-    <div class="digital-clock">
-        <div class="time">
-            <div class="left-side">
-                <span id="hours">00</span>
-            </div>
-            <div class="right-side">
-                <div class="right-top">
-                    <span id="dots">:</span>                       
-                    <span id="minutes">00</span>
+    <div class="content">
+        <div class="digital-clock">
+            <div class="time">
+                <div class="left-side">
+                    <span id="hours">00</span>
                 </div>
-                <div class="right-down">
-                    <span id="seconds">00</span>
-                    <span id="period">PM</span>
+                <div class="right-side">
+                    <div class="right-top">
+                        <span id="dots">:</span>                       
+                        <span id="minutes">00</span>
+                    </div>
+                    <div class="right-down">
+                        <span id="seconds">00</span>
+                        <span id="period">PM</span>
+                    </div>
                 </div>
             </div>
         </div>
+    
+        <div class="calendar">
+          <div class="left">
+            <p id="date">01</p>
+            <p id="day">Sunday</p>
+          </div>
+          <div class="right">
+            <p id="month">January</p>
+            <p id="year">2024</p>
+          </div>
+        </div>
     </div>
+    <script src="date.js"></script>
     <script src="app.js"></script>    
     
 </body>

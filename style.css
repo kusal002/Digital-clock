@@ -10,13 +10,14 @@
     align-items: center;
  }
  body{
-    min-height: 80vh;
     background-color: #022328;
  }
  .digital-clock, .time, .right-side, .right-top, .right-down {
     position: relative;
  }
  .digital-clock{
+    margin-top: 110px;
+    height: 200px;
     color: rgb(171, 168, 165);
     width: 450px;
     padding: 20px 45px;
@@ -82,3 +83,49 @@
     color: orange;
 }
  
+.calendar{
+   height: 400px;
+   width: 380px;
+   margin-top:90px;
+   margin-left: 30px;
+   border-radius: 18px;
+   background-color: rgb(222, 214, 214);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.left, .right {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    flex-direction: column;
+}
+.right{
+width: 44%;
+background-color: orangered;
+color: whitesmoke;
+border-top-right-radius:5px;
+border-bottom-right-radius: 5px;
+box-shadow: 5px 10px 30px 10px rgba(123, 122, 122);
+
+}
+.left{
+    width: 56%;
+    box-shadow: 5px 10px 30px 10px rgb(227, 85, 33);
+}
+#date{
+    font-size: 150px;
+    line-height: 90px;
+    padding-bottom: 20px;
+}
+#day{
+    font-size: 45px;
+    font-weight: 700;
+}
+#month{
+    font-size: 40px;
+}
