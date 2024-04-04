@@ -5,7 +5,7 @@ const year = document.getElementById("year");
 
 const today = new Date();
 
-const weekDays = ["Sunday","Monday","Tuesday","Thursday","Friday","Saturday"];
+const weekDays = ["Sunday","Monday","Tuesday","Wednusday", "Thursday","Friday","Saturday"];
 
 const allMonths = ["January","February","March","April","May","June","July","August","September",'October',"November","December"];
 
